@@ -12,7 +12,7 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-            Hey Tech Bro & Sis
+            Hey Tech 
             </Heading>
             <Text as="p" sx={styles.text}>
              Welcome to school. We Teach Tech & Digital Skills Here
