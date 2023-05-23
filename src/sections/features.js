@@ -50,22 +50,22 @@ const Features = () => {
               sx={styles.heading}
               title={
                 <Fragment>
-                  Smart Jackpots <br />
-                  that you may love this anytime &amp; anywhere
+                 Go from CLUELESS <br />
+                to TECH BRO!!!
                 </Fragment>
               }
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              description="Hear what our students have to say from their learning experience."
             />
-            <Text sx={styles.listItem} as="p">
+            {/* <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
               Unlimited design possibility
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
               Completely responsive features
-            </Text>
+            </Text> */}
             <Box sx={styles.explore}>
-              <LearnMore path="#!" label="Explore More" />
+              <LearnMore path="#!" label="Join them" />
             </Box>
           </Box>
         </Box>

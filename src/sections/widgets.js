@@ -18,19 +18,25 @@ const Widgets = () => {
           <Box sx={styles.rightContent}>
             <SectionHeading
               sx={styles.heading}
-              title="Ultimate widgets of collection that will be used anywhere"
-              description="Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever."
+              title="Work with Us!"
+              description="Want to shape the future of work with us?."
             />
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Unlimited design possibility
+           Hire our grads
             </Text>
             <Text sx={styles.listItem} as="p">
               <Image src={checkFilledCircle} alt="check icon" />
-              Completely responsive features
+            Train your in-house team
+
+            </Text>
+             <Text sx={styles.listItem} as="p">
+              <Image src={checkFilledCircle} alt="check icon" />
+         Sponsor an aspiring techie
+
             </Text>
             <Box sx={styles.explore}>
-              <LearnMore path="#!" label="Explore More" />
+              <LearnMore path="#!" label="Let’s Work" />
             </Box>
           </Box>
         </Box>

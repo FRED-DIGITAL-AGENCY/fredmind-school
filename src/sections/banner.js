@@ -1,9 +1,9 @@
 /** @jsx jsx */
 import { jsx, Box, Container, Heading, Text, Button, Image } from 'theme-ui';
 import banner from 'assets/images/banner.png';
-import paypal from 'assets/images/paypal.png';
-import google from 'assets/images/google.png';
-import dropbox from 'assets/images/dropbox.png';
+// import paypal from 'assets/images/paypal.png';
+// import google from 'assets/images/google.png';
+// import dropbox from 'assets/images/dropbox.png';
 
 const Banner = () => {
   return (
@@ -12,22 +12,22 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-            Hey Tech 
+          Hey Aspiring techie OR Are you a Tech Enthusiast?
+
             </Heading>
             <Text as="p" sx={styles.text}>
-             Welcome to school. We Teach Tech & Digital Skills Here
-         
+           Explore, Learn, and Excel with our tech programs. Our program is designed to equip you with the skills needed to succeed in today's fast-paced digital world. No degree or prior tech experience required.
 
 
             </Text>
             <Button variant="primary" sx={styles.button}>
               Enrol Now
             </Button>
-            <Box sx={styles.clients}>
+            {/* <Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
               <Image src={google} alt="google" />
               <Image src={dropbox} alt="dropbox" />
-            </Box>
+            </Box> */}
           </Box>
           <Box sx={styles.illustration}>
             <Image src={banner} alt="banner" />
@@ -54,7 +54,7 @@ const styles = {
   },
   title: {
     fontWeight: 'bold',
-    fontSize: ['30px', null, null, null, '42px', '40px', '60px'],
+    fontSize: ['24px', null, null, null, '40px', '20px', '40px'],
     lineHeight: 1.33,
     letterSpacing: '-1px',
     color: 'textSecondary',

@@ -12,26 +12,32 @@ const data = [
   {
     id: 1,
     icon: bulb,
-    title: 'Fast Performance',
-    description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
+    title: 'Updated Curriculum ',
+    description: `Our modules are well-structured with up-to-date information, and relevant course content to align with your learning goals.`,
   },
   {
     id: 2,
     icon: diamond,
-    title: 'Pro Subscription',
-    description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
+    title: 'Stellar User Experience ',
+    description: `The functionality of our learning platform helps you learn from anywhere. We offer a virtual-first, self paced program that runs in cohorts.`,
   },
   {
     id: 3,
     icon: help,
-    title: 'Partnership deal',
-    description: `Let’s just get this out of the way - there will always be a kit version of Eduflow. Built by educators, we believe in equating education for all. Paid subscriptions allow us to continue helping learners around the world.`,
+    title: 'Expert Tutors',
+    description: `Our instructors/facilitators are seasoned industry leaders with relevant industry experience, academic credentials, and a strong track record in teaching the subject matter.`,
   },
   {
     id: 4,
     icon: award,
-    title: 'Customer Support',
-    description: `We believe it’s important for everyone to have access to software – especially when it comes to digital learning tools. Eduflow is built with WCAG standards in mind and can easily be navigated by keyboard and screen readers.`,
+    title: 'Progress Tracking',
+    description: `Our course helps you assess your progress and provides you with real-time feedback through quizzes, assignments, or projects to gauge your understanding.`,
+  },
+    {
+    id: 5,
+    icon: help,
+    title: 'Support & Community',
+    description: `You get to connect with fellow learners through discussion forums, group projects, networking events to foster collaboration.`,
   },
 ];
 
@@ -41,7 +47,7 @@ const UsefulFeatures = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Amazing useful features"
+          title="Unlock your potential, Learn with Us"
           description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred format."
         />
         <Box sx={styles.features}>

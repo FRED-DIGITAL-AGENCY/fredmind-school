@@ -5,23 +5,19 @@ export const menuItems = [
     items: [
       {
         path: '#!',
-        label: 'About',
+        label: 'School',
       },
       {
         path: '#!',
-        label: 'Affiliate',
+        label: 'Our Approach',
       },
       {
         path: '#!',
-        label: 'Careers & Culture    ',
+        label: 'Resources',
       },
       {
         path: '#!',
-        label: 'Blog',
-      },
-      {
-        path: '#!',
-        label: 'Press',
+        label: 'Work with us',
       },
     ],
   },
@@ -35,20 +31,13 @@ export const menuItems = [
       },
       {
         path: '#!',
-        label: 'Customer Support',
+        label: 'Student Support',
       },
       {
         path: '#!',
         label: 'About Us',
       },
-      {
-        path: '#!',
-        label: 'Copyright',
-      },
-      {
-        path: '#!',
-        label: 'Popular Campaign',
-      },
+     
     ],
   },
   {
@@ -134,18 +123,18 @@ export const footerNav = [
   },
   {
     path: '#!',
-    label: 'Advertise',
+    label: 'School',
   },
   {
     path: '#!',
-    label: 'Supports',
+    label: 'Our Approach',
   },
   {
     path: '#!',
-    label: 'Marketing',
+    label: 'Resources',
   },
   {
     path: '#!',
-    label: 'FAQ',
+    label: 'Work with us',
   },
 ];

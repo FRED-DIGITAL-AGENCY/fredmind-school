@@ -5,14 +5,18 @@ export default [
   },
   {
     path: 'ultimate-feature',
-    label: 'About',
+    label: 'School ',
   },
   {
     path: 'pricing',
-    label: 'Pricing',
+    label: 'Our Approach',
+  },
+   {
+    path: 'pricing',
+    label: ' Resources ',
   },
   {
     path: 'faq',
-    label: 'Faq',
+    label: 'Work with Us',
   },
 ];

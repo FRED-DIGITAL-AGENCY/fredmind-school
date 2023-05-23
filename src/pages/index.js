@@ -9,7 +9,7 @@ import Features from 'sections/features';
 import IntroVideo from 'sections/intro-video';
 import UsefulFeatures from 'sections/useful-features';
 import Widgets from 'sections/widgets';
-import Pricing from 'sections/pricing';
+// import Pricing from 'sections/pricing';
 import Faq from 'sections/faq';
 
 export default function IndexPage() {
@@ -23,7 +23,7 @@ export default function IndexPage() {
         <IntroVideo />
         <UsefulFeatures />
         <Widgets />
-        <Pricing />
+        {/* <Pricing /> */}
         <Faq />
       </Layout>
     </ThemeProvider>

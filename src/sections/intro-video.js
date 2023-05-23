@@ -17,14 +17,12 @@ const IntroVideo = () => {
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="   Equip Yourself for a World of Opportunities."
-          description=" Grab Your Seat & Get a Chilled Drink. Let’s Learn and Earn. We have Been Waiting for You
-            You are at the right place. Let’s Talk
-            A “hold-my-hand”, step-by-step process to learn in-demand high income skill from beginner 
-            to Mastery, even if it is your first time. No degree or prior tech experience required."
+          title="Equip Yourself for a World of Opportunities."
+          description=" We are a digital school shaping you for the future of work. Looking to kickstart your career in tech? We are just the right stop for you. Not only will we hold your hands through your learning phase, we will support you to the point you land your first job or internship.
+          Our curriculum is gradual and project based. Through our courses in Marketing, Data, Engineering and Design, you will learn, work on projects to build your portfolio and become an attractive talent in the job market."
         />
         <Box sx={styles.explore}>
-          <LearnMore path="#!" label="Explore More" />
+          <LearnMore path="#!" label="Learn More" />
         </Box>
         <Box sx={styles.videoWrapper}>
           <Modal isOpen={isOpen}>
