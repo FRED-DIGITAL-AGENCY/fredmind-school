@@ -12,17 +12,18 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <Box sx={styles.content}>
             <Heading sx={styles.title}>
-          Hey Aspiring techie OR Are you a Tech Enthusiast?
+          Hey Aspiring Techie
 
             </Heading>
             <Text as="p" sx={styles.text}>
-           Explore, Learn, and Excel with our tech programs. Our program is designed to equip you with the skills needed to succeed in today's fast-paced digital world. No degree or prior tech experience required.
-
+         Build a Lucrative Tech Career. Purely Pratical, Aceess to internship and Jobs
 
             </Text>
             <Button variant="primary" sx={styles.button}>
               Enrol Now
             </Button>
+            
+     
             {/* <Box sx={styles.clients}>
               <Image src={paypal} alt="paypal" />
               <Image src={google} alt="google" />
@@ -54,7 +55,7 @@ const styles = {
   },
   title: {
     fontWeight: 'bold',
-    fontSize: ['24px', null, null, null, '40px', '20px', '40px'],
+    fontSize: ['44px', null, null, null, '60px', '40px', '60px'],
     lineHeight: 1.33,
     letterSpacing: '-1px',
     color: 'textSecondary',

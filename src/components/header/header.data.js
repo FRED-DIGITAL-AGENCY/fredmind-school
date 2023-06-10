@@ -1,10 +1,12 @@
+import Link from 'next/link';
+
 export default [
   {
-    path: 'home',
+    path: '/',
     label: 'Home',
   },
   {
-    path: 'ultimate-feature',
+    path: '/school',
     label: 'School ',
   },
   {

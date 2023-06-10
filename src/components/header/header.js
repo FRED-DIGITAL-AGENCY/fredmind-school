@@ -6,6 +6,7 @@ import Sticky from 'react-stickynode';
 import Logo from 'components/logo';
 import { NavLink } from 'components/link';
 import menuItems from './header.data';
+import Link from 'next/link'
 
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -40,15 +41,25 @@ export default function Header() {
                   sx={styles.navList}
                   className={mobileMenu ? 'active' : ''}
                 >
-                  {menuItems.map(({ path, label }, i) => (
-                    <li key={i}>
-                      <NavLink
-                        path={path}
-                        label={label}
-                        onClick={closeMobileMenu}
-                      />
+                  
+                    <li  
+                  as="ul"
+                  sx={styles.navList}
+                  className={mobileMenu ? 'active' : ''}
+                    >
+                        <Link href="/">Home</Link>
                     </li>
-                  ))}
+
+                    
+                     <li className={mobileMenu ? 'active' : ''}>
+                         <Link href="/">Home</Link>
+                      
+                    </li>
+                       <li>
+                      <Link href="/about">About Us</Link>
+                      helo
+                    </li>
+                
                 </Box>
                 <Button variant="primaryMd" sx={styles.explore}>
                  Enroll Now
@@ -160,4 +171,8 @@ const styles = {
       stroke: '#fff',
     },
   },
+  li: {
+    textDecoration: "none",
+
+  }
 };
